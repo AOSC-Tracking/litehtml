@@ -16,6 +16,9 @@ namespace litehtml
 
     class render_item : public std::enable_shared_from_this<render_item>
     {
+    public:
+        typedef std::shared_ptr<render_item>	ptr;
+        typedef std::weak_ptr<render_item>		weak_ptr;
     protected:
         std::shared_ptr<element>                    m_element;
         std::weak_ptr<render_item>                  m_parent;

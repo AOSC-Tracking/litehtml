@@ -6,6 +6,7 @@
 #include <litehtml/html_tag.h>
 #include <litehtml/stylesheet.h>
 #include <litehtml/element.h>
+#include <litehtml/render_item.h>
 #include <litehtml/utf8_strings.h>
 
 #endif  // LITEHTML_H
